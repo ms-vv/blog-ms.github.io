@@ -31,18 +31,17 @@
 /* 导航栏
 /* 一级菜单居中 */
 #nav .menus_items {
+  /* 这个带不带都可以，本来就是inline */
+  display: inline;
   position: absolute !important;
-  width: fit-content !important;
+  width: max-content !important;
   left: 50% !important;
   transform: translateX(-50%) !important;
 }
-#nav-right{
-  flex:1 1 auto;
-  justify-content: flex-end;
-  margin-left: auto;
-  display: flex;
-  flex-wrap:nowrap;
+#nav .menus_items .menus_item {
+  padding: 0 0 0 8px !important;
 }
+
 /* 导航栏 */
 #page-header.nav-fixed #nav {
   background: rgba(255, 255, 255, 0.75);
