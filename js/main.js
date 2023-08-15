@@ -320,6 +320,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const scrollTask = btf.throttle(() => {
       const currentTop = window.scrollY || document.documentElement.scrollTop
       const isDown = scrollDirection(currentTop)
+      $header.classList.add('is-top-bar')
       if (currentTop > 56) {
         if (isDown) {
           if ($header.classList.contains('nav-visible')) $header.classList.remove('nav-visible')
@@ -340,7 +341,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
       } else {
         if (currentTop === 0) {
-          $header.classList.remove('nav-fixed', 'nav-visible')
+          $header.classList.remove('is-top-bar')
         }
         $rightside.style.cssText = "opacity: ''; transform: ''"
       }
