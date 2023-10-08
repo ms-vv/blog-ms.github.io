@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>信息收集</title>
+      <link href="/2023/10/08/page/"/>
+      <url>/2023/10/08/page/</url>
+      
+        <content type="html"><![CDATA[<h1 id="精准搜索"><a href="#精准搜索" class="headerlink" title="精准搜索"></a>精准搜索</h1><h2 id="域名搜索"><a href="#域名搜索" class="headerlink" title="域名搜索"></a>域名搜索</h2><ul><li>Fofa: domain = “baidu. com”</li><li>Hunter: domain. suffix = “baidu. com”</li></ul><h2 id="域名解析"><a href="#域名解析" class="headerlink" title="域名解析"></a>域名解析</h2><ul><li>微步： x.threadtbook.com</li><li>360: ti. 360. cn</li><li>旁站查询：webscan. cc<ul><li>搜 ip 会好一点</li></ul></li><li>edu 可以搜 c 段</li></ul><h2 id="子域名收集"><a href="#子域名收集" class="headerlink" title="子域名收集"></a>子域名收集</h2><ul><li>oneforall</li><li>水泽</li><li>Nemo</li><li>灯塔魔改版</li></ul><h2 id="企业查询"><a href="#企业查询" class="headerlink" title="企业查询"></a>企业查询</h2><p>企查查、爱企查、小蓝本、微信小程序和公众号</p><h2 id="通用系统搜索"><a href="#通用系统搜索" class="headerlink" title="通用系统搜索"></a>通用系统搜索</h2><ul><li>cnvd<ul><li>搜索公司名或系统名字</li></ul></li><li>edu 搜索<ul><li>开发商排行榜</li><li>官网看合作单位</li></ul></li></ul><h1 id="模糊查询"><a href="#模糊查询" class="headerlink" title="模糊查询"></a>模糊查询</h1><ul><li>github 关键字</li><li>微步 <ul><li>相关 url，子域名</li></ul></li><li>fofa<ul><li>证书搜索</li><li>icon 搜索</li><li>搜索 cms、网站特征、网站专有js</li></ul></li><li>Hunter<ul><li>搜索域名然后转 icon</li></ul></li><li>小蓝本<ul><li>app</li><li>公众号</li><li>网站</li></ul></li><li>公众号<ul><li>搜索公司全称和名称缩写、子公司名</li><li>小程序</li></ul></li><li>短视频<ul><li>抖音<ul><li>xx 后台登陆教程<ul><li>url 地址</li><li>手机号</li><li>密码</li><li>敏感信息</li></ul></li></ul></li></ul></li></ul><h1 id="漏洞报告"><a href="#漏洞报告" class="headerlink" title="漏洞报告"></a>漏洞报告</h1><ul><li>打开目标网站<ul><li>图片</li></ul></li><li>某个功能点存在 xx 漏洞，插入 payload：xxx<ul><li>图片</li></ul></li><li>成功 xx<ul><li>图片</li></ul></li><li>不用打码，sql 验证到库名，有的要验证资产证明<ul><li>seo 综合查询</li></ul></li></ul><h1 id="杂谈"><a href="#杂谈" class="headerlink" title="杂谈"></a>杂谈</h1><ul><li>bp 代理</li><li>全球 ping</li><li>在线子域名爆破</li><li>魔改版灯塔</li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>web-xss 其一</title>
       <link href="/2023/10/06/page/"/>
       <url>/2023/10/06/page/</url>
