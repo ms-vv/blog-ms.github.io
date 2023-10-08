@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>web-弱口令</title>
+      <link href="/2023/10/09/page/"/>
+      <url>/2023/10/09/page/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>易被猜解的密码</p></blockquote><h1 id="字典"><a href="#字典" class="headerlink" title="字典"></a>字典</h1><h2 id="项目地址"><a href="#项目地址" class="headerlink" title="项目地址"></a>项目地址</h2><ul><li><a href="http://github.com/TheKingofDuck/fuzzDicts">http://github.com/TheKingofDuck/fuzzDicts</a></li></ul><h2 id="常用密码本"><a href="#常用密码本" class="headerlink" title="常用密码本"></a>常用密码本</h2><ul><li>常见安全设备默认口令清单</li><li>华为安全产品默认口令</li><li>路由器默认密码</li><li>RW_Password（强密码字典）</li></ul><h1 id="弱口令思路"><a href="#弱口令思路" class="headerlink" title="弱口令思路"></a>弱口令思路</h1><h2 id="常见系统弱口令"><a href="#常见系统弱口令" class="headerlink" title="常见系统弱口令"></a>常见系统弱口令</h2><h3 id="xxl-job"><a href="#xxl-job" class="headerlink" title="xxl -job"></a>xxl -job</h3><ul><li>admin: 123456</li><li>后台可反弹 shell</li><li>默认路径：/xxl-job</li></ul><h3 id="K-8-s-控制台"><a href="#K-8-s-控制台" class="headerlink" title="K 8 s 控制台"></a>K 8 s 控制台</h3><ul><li>admin: P@88w0rd</li><li>直接接管集群</li></ul><h3 id="Zabbix"><a href="#Zabbix" class="headerlink" title="Zabbix"></a>Zabbix</h3><ul><li>admin：zabbix</li><li>后台可反弹 shell</li></ul><h3 id="grafana"><a href="#grafana" class="headerlink" title="grafana"></a>grafana</h3><ul><li>admin：admin</li></ul><h3 id="nacos-系统监控"><a href="#nacos-系统监控" class="headerlink" title="nacos 系统监控"></a>nacos 系统监控</h3><ul><li>naocs：nacos</li><li>未授权，jwt 默认密钥</li></ul><h3 id="tomcat"><a href="#tomcat" class="headerlink" title="tomcat"></a>tomcat</h3><ul><li>admin：admin、tomcat：tomcat</li><li>后台可反弹 shell</li><li>有专门的字典：tomcat-user|tomcat-pass</li><li>数据包中密码被 base 64<ul><li>选择 base 64</li><li>取消 url 编码</li></ul></li></ul><h3 id="ActiveMQ-组件"><a href="#ActiveMQ-组件" class="headerlink" title="ActiveMQ 组件"></a>ActiveMQ 组件</h3><ul><li>admin：admin</li></ul><h3 id="weblogic-控制台"><a href="#weblogic-控制台" class="headerlink" title="weblogic 控制台"></a>weblogic 控制台</h3><ul><li>weblogic：weblogic</li></ul><h3 id="RabbitMQ-组件"><a href="#RabbitMQ-组件" class="headerlink" title="RabbitMQ 组件"></a>RabbitMQ 组件</h3><ul><li>guest：guest、admin：admin</li></ul><h3 id="gitlab-控制台"><a href="#gitlab-控制台" class="headerlink" title="gitlab 控制台"></a>gitlab 控制台</h3><ul><li>root：可爆破</li></ul><h3 id="druid-组件"><a href="#druid-组件" class="headerlink" title="druid 组件"></a>druid 组件</h3><ul><li>admin：123456</li></ul><h3 id="若依"><a href="#若依" class="headerlink" title="若依"></a>若依</h3><ul><li>admin：admin 123</li></ul><h2 id="常见弱口令思路"><a href="#常见弱口令思路" class="headerlink" title="常见弱口令思路"></a>常见弱口令思路</h2><ul><li>用户名枚举<ul><li>test-phone 字典测试手机号<ul><li>固定密码：123456 000000 空密码等</li></ul></li></ul></li><li>用户登录<ul><li>固定用户名：admin：对密码爆破</li><li>固定密码：123456 对账号进行爆破<ul><li>推荐用户名字典：常用用户名》中文姓名》top 300》chinaUsername</li><li>推荐密码字典：top 19576.txt</li></ul></li><li>可以枚举，先枚举用户再进行密码爆破</li><li>国内系统对以下用户进行爆破<ul><li>admin、root、administrator、gly、ceshi、test、student、teacher</li></ul></li></ul></li><li>密码加密<ul><li>将简单的 123456 登录之后数据包中复制，爆破常用用户名</li><li>js 逆向</li></ul></li><li>iot 弱口令<ul><li>推荐字典<ul><li>常见安全设备默认口令清单</li><li>华为安全产品默认用户名密码速查比啊</li><li>路由器默认密码</li></ul></li><li>cnvd 搜弱口令<ul><li>大部分都是 admin：123456、admin：admin</li></ul></li></ul></li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>信息收集</title>
       <link href="/2023/10/08/page/"/>
       <url>/2023/10/08/page/</url>
